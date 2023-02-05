@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colocando vídeos</title>
+   <style>
+    body{
+        background-color: rgb(24, 24, 25);
+    }
+    h1{
+        color: aliceblue;
+    }
+    p{
+        color: aliceblue;
+    }
+   </style>
+</head>
+<body>
+  <h1>Inserindo vídeos hospedados localmente</h1>
+  <p>Este vídeo está hospedado no meu próprio servidor.</p>
+  <video controls height="200" width="230" poster="imagem/melão.webp">
+    <source src="midia/Meu-Video.MKV-720P.mkv" type="video/mp4">
+    <source src="midia/Meu-Video.Mp4-720p.mp4" type="video/mp4">
+    <source src="midia/Meu-Video.WebM-720p.webm" type="video/webm">
+    <source src="midia/meu-video.OGV.ogv" type="video/ogg">
+    <p>Seu navegador não tem compatibilidade com reprodução de videos.</p>
+  </video> 
+  <h1>Inserindo vídeos do youtube clique no melão</h1>
+  <a href="exercicio.html" target="_self"><img src="imagem/melão.webp" alt="imagem do melão" width="200"></a>
+  <h1>Inserindo vídeos do Vimeo</h1>
+  <iframe src="https://player.vimeo.com/video/314492316?h=0988fb6d00&color=ff9933&portrait=0" width="230" height="200" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
