@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionando fundos no centro</title>
+    <style>
+        #relativo{
+            height: 92vh;
+            background-color: aquamarine;
+            padding: 20px;
+            position: relative;
+        }
+
+        #absoluto{
+            background-color: blue;
+            width: 200px;
+            height: 300px;
+            position: absolute;
+
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%,-50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="relativo">
+        <div id="absoluto">
+
+        </div>
+    </div>
+    
+</body>
+</html>
